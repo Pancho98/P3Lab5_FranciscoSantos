@@ -1,7 +1,7 @@
 main.out:Zoologico.o Animal.o Main.o Patas.o Ojos.o Orejas.o Pelaje.o Cola.o
 	g++ Zoologico.o Animal.o Main.o Patas.o Ojos.o Orejas.o Pelaje.o Cola.o -o main.out
 
-Animal.o: Animal.cpp Animal.h Patas.h Pelaje.h Orejas.hOjos.h Cola.h
+Animal.o: Animal.cpp Animal.h Patas.h Pelaje.h Orejas.h Ojos.h Cola.h
 	g++ -c Animal.cpp
 
 Zoologico.o: Zoologico.cpp Zoologico.h
